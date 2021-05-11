@@ -1,0 +1,178 @@
+* {
+  margin:0;
+  padding:0;
+  // see http://css-tricks.com/international-box-sizing-awareness-day/
+  &, &:before, &:after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+    font-family: $fontfamily-default;
+    line-height: 1.5;
+}
+* + h1, * + h2, * + article, * + section {
+  margin-top: 2em;
+}
+* + p, * + h3, * + .video-player, * + pre, * + blockquote, * + ul, * + dl, * + dt {
+  margin-top: 1em;
+}
+li {
+  margin-left: 1.5em;
+
+  // @see https://developer.mozilla.org/en-US/docs/Web/CSS/:dir
+  [dir="rtl"] & {
+    margin-right: 1.5em;
+    margin-left: 0;
+  }
+}
+a {
+  color: $color-theme;
+  &:hover {
+    color: darken($color-theme, 20%);
+  }
+}
+
+@include no-amp {
+  @media print {
+    @page {
+      margin: 0.5cm;
+    }
+    h1, h2, h3, h4 {
+      page-break-after: avoid;
+    }
+    h1, h2, h3, h4, p, li, tr, img {
+      page-break-inside: avoid;
+    }
+    thead {
+      display: table-header-group;
+    }
+    img {
+      max-width: 100% !important;
+    }
+  }
+}
+
+#container {
+  > header,
+  > #navigation,
+  > div > main,
+  > div > aside,
+  > footer {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    @include bigger-as-container {
+      padding-left: calc(50vw - (#{$width-container / 2}) + 0.5em);
+      padding-right: calc(50vw - (#{$width-container / 2}) + 0.5em);
+    }
+  }
+
+  > header {
+    background-color: $color-theme;
+    font-size: 1em;
+    a {
+      color: white;
+      text-decoration:none;
+    }
+  }
+
+  > aside {
+    border-top: 1px dashed $color-grey-dark;
+  }
+}
+
+.breadcrumb {
+  list-style: none;
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: -1em;
+  li {
+    display: inline-block;
+    margin: 0;
+    &:after {
+      content: "\00BB";
+    }
+    &:last-child {
+      display: none;
+    }
+  }
+}
+
+#header,
+#sidebar,
+#footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#header {
+  @include no-amp {
+    form {
+      position:absolute;
+      right: calc(50vw - (#{$width-container / 2}) + 0.5em);
+      top: 1em;
+      input {
+        padding: 0.2em;
+      }
+    }
+  }
+}
+
+#navigation {
+  background-color: $color-grey;
+  border-bottom:1px dashed $color-grey-dark;
+  margin-bottom: 1em;
+  padding: 0.2em 0;
+  text-align: center;
+  ul {
+    list-style: none;
+    display: block;
+    li {
+      display: inline-block;
+      margin: 0 1em 0 0;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.prevnext {
+  text-align:center;
+  padding: 2em 0;
+  a {
+    display:inline-block;
+    padding:0 1em;
+    span {
+      display: none;
+    }
+  }
+}
+
+#sidebar {
+  background-color: $color-grey;
+  border-top: 1px dashed $color-grey-dark;
+  font-size: 0.8em;
+  @extend %clearfix;
+
+  h2 {
+    display: none;
+  }
+  @include no-amp {
+    @media (min-width: 35em) {
+      section {
+        width: 50%;
+        padding-right: 2em;
+        float: left;
+      }
+    }
+  }
+}
+
+#footer {
+  background-color: $color-grey;
+  color: $color-grey-dark;
+  font-size: 0.7em;
+  text-align: center;
+}

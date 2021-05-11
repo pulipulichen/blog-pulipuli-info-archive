@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{config.locale.language}}" dir="{{config.locale.direction}}" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{#i18n}}All tags{{/i18n}} | {{config.name}}</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{config.absoluteBasePath}}tagged/" />
+  <meta property="og:title" name="title" content="{{#i18n}}All tags{{/i18n}}" />
+  <meta property="og:description" name="description" content="{{#i18n}}All tags for &quot;{{config.name}}&quot;{{/i18n}}" />
+  <link rel="canonical" href="{{config.absoluteBasePath}}tagged/" />
+  {{>metaHtml}}
+</head>
+<body class="tags">
+  <div id="container">
+    {{>headerHtml}}
+    <div id="main">
+      <main id="content">
+        <h1>{{#i18n}}All tags{{/i18n}}</h1>
+
+        {{#if index}}
+          <nav>
+            <ul>
+              {{#each index}}
+                <li><a href="{{url}}" title="{{#i18n}}More articles with &ldquo;{{title}}&rdquo;{{/i18n}}">{{title}}</a></li>
+              {{/each}}
+            </ul>
+          </nav>
+        {{/if}}
+
+      </main>
+      <aside id="sidebar">
+        {{>sidebarHtml}}
+      </aside>
+    </div>
+    {{>footerHtml}}
+  </div>
+  {{>closureHtml}}
+</body>
+</html>

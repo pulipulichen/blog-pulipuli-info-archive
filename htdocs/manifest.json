@@ -1,0 +1,77 @@
+{
+  "lang": "zh-TW",
+  "dir": "ltr",
+  "name": "Pulipuli Chen's Blog",
+  "description": "A blog archive for blog.pulipuli.info",
+  "short_name": "pulipuli",
+  "icons": [
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/favicon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/favicon-270x270.png",
+      "sizes": "270x270",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://archive.pulipuli.info/themes/default/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ],
+  "scope": "https://archive.pulipuli.info/",
+  "display": "minimal-ui",
+  "orientation": "any",
+  "start_url": "https://archive.pulipuli.info/?utm_source=manifest",
+  "theme_color": "#116bfc",
+  "background_color": "#ffffff",
+  "screenshots": [],
+  "categories": [
+    "blog"
+  ],
+  "shortcuts": [
+    {
+      "name": "Big Data",
+      "url": "/category/big-data/"
+    },
+    {
+      "name": "LibreOffice Calc",
+      "url": "/category/libreoffice-calc/"
+    }
+  ]
+}

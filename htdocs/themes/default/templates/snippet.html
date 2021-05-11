@@ -1,0 +1,12 @@
+<section class="snippet">
+{{#if title}}
+  <h3><a href="{{absoluteUrl}}">{{title}}{{#if subtitle}}, {{subtitle}}{{/if}}</a></h3>
+{{/if}}
+{{#if index}}
+  <ul class="teasers">
+    {{#each index}}
+      <li><a href="{{meta.Url}}"{{#unless meta.isDefaultLanguage}} hreflang="{{meta.Language}}" class="lang-{{meta.Language}}"{{/unless}}>{{meta.Title}}</a>{{^meta.isDefaultLanguage}} ({{meta.Language}}){{/meta.isDefaultLanguage}}</li>
+    {{/each}}
+  </ul>
+{{/if}}
+</section>

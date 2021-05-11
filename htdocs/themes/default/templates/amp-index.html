@@ -1,0 +1,101 @@
+<!doctype html>
+<html ⚡ lang="{{config.locale.language}}" dir="{{config.locale.direction}}">
+<head>
+  <meta charset="utf-8" />
+  <title>{{#if meta.title}}{{meta.title}}{{#if meta.subtitle}}, {{meta.subtitle}}{{/if}} | {{/if}}{{config.name}}</title>
+  <link rel="canonical" href="{{meta.absoluteUrl}}" />
+  {{#if meta.isHomepage}}
+    <meta name="description" content="{{config.description}}" />
+  {{else}}
+    <meta name="description" content="{{meta.title}} - {{config.description}}" />
+  {{/if}}
+  {{>ampMetaHtml}}
+  {{#if consolidatedProperties.ampPropertiesTeaser.hasAudio}}
+    <script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
+  {{/if}}
+  {{#if consolidatedProperties.ampPropertiesTeaser.hasIframe}}
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+  {{/if}}
+  {{#if consolidatedProperties.ampPropertiesTeaser.hasYoutube}}
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+  {{/if}}
+  {{#if consolidatedProperties.ampPropertiesTeaser.hasVimeo}}
+    <script async custom-element="amp-vimeo" src="https://cdn.ampproject.org/v0/amp-vimeo-0.1.js"></script>
+  {{/if}}
+</head>
+<body>
+  <div id="container">
+    {{>headerHtml}}
+    <main>
+      {{#if meta.title}}
+        <h1>{{meta.title}}{{#if meta.subtitle}}, {{meta.subtitle}}{{/if}}</h1>
+      {{/if}}
+
+      {{#if index}}
+        <div class="teasers">
+          {{#each index}}
+            <article class="{{meta.Classes}}"{{#unless meta.isDefaultLanguage}} lang="{{meta.Language}}" dir="{{meta.Direction}}"{{/unless}} itemscope itemtype="{{meta.Schema}}">
+              {{#if meta.Image}}
+                <link itemprop="image" href="{{meta.Image}}" />
+              {{else}}
+                <link itemprop="image" href="{{../config.ogImage}}" />
+              {{/if}}
+              <link itemprop="url mainEntityOfPage" href="{{meta.AbsoluteUrl}}" class="permalink u-url" />
+              {{#ifEquals meta.Schema 'http://schema.org/BlogPosting'}}<meta itemprop="wordCount" content="{{meta.Wordcount}}" />{{/ifEquals}}
+
+              <header>
+                <time datetime="{{dateFormat meta.Created 'iso'}}" itemprop="datePublished" class="date">{{dateFormat meta.Created 'locale' meta.Language}}</time>
+                {{#if meta.Modified}}
+                  <time datetime="{{dateFormat meta.Modified 'iso'}}" itemprop="dateModified" class="modified">{{dateFormat meta.Modified 'locale' meta.Language}}</time>
+                {{/if}}
+                <h2 itemprop="name headline"><a href="{{meta.AbsoluteUrlAmp}}">{{meta.Title}}</a></h2>
+              </header>
+              <div itemprop="description">
+                {{{ampHtmlTeaser}}}
+              </div>
+              {{#if meta.hasNoExtraDescription}}
+                {{#if meta.hasExternalLink}}
+                  <p><a href="{{meta.Link}}">{{#i18n}}Go to website…{{/i18n}}</a></p>
+                {{/if}}
+              {{else}}
+                <p><a href="{{meta.AbsoluteUrlAmp}}" title="{{meta.Title}}">{{#i18n}}Read on…{{/i18n}}</a></p>
+              {{/if}}
+
+              <footer class="meta" aria-hidden="true">
+                {{#if meta.AuthorName}}
+                  <address class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <link itemprop="image" href="{{meta.AuthorImage}}" />
+                    <span itemprop="name">{{meta.AuthorName}}</span>
+                  </address>
+                {{/if}}
+                <address class="publisher" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                  <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+                    <link itemprop="url" href="{{../config.themeConf.ogImage}}" />
+                  </span>
+                  <span itemprop="name">{{../config.name}}</span>
+                </address>
+              </footer>
+            </article>
+          {{/each}}
+        </div>
+      {{/if}}
+
+      {{#if needsPager}}
+        <nav class="pager">
+          {{#if navevUrl}}
+            <a href="{{prevUrl}}" rel="prev" class="prev" aria-label="{{#i18n}}Previous page{{/i18n}}" accesskey="j">&laquo; <span>{{#i18n}}Previous page{{/i18n}}</span></a>
+          {{/if}}
+          {{#if title}}
+            <a href="{{config.basePath}}" rel="contents" id="up">{{#i18n}}To article listing{{/i18n}}</a>
+          {{/if}}
+          {{#if nextUrl}}
+            <a href="{{nextUrl}}" rel="next" class="next" aria-label="{{#i18n}}Next page{{/i18n}}" accesskey="k"><span>{{#i18n}}Next page{{/i18n}}</span> &raquo;</a>
+          {{/if}}
+        </nav>
+      {{/if}}
+    </main>
+    {{>footerHtml}}
+  </div>
+  {{>ampClosureHtml}}
+</body>
+</html>
