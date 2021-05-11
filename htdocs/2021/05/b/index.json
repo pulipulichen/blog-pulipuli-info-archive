@@ -1,0 +1,93 @@
+{
+  "htmlTeaser": "<p>There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.</p>",
+  "html": "<p>There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.</p>",
+  "htmlTitle": "There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.",
+  "filename": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/B.md",
+  "markdown": "There are <% page('PageA').get('numOfProducts') %> products in total.\n",
+  "meta": {
+    "Title": "There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.",
+    "hasNoExtraDescription": true,
+    "Description": "There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.",
+    "DateModified": "2021-05-11T15:38:26.595Z",
+    "Date": "2021-05-11T15:38:26.595Z",
+    "Language": "en",
+    "isMicropost": false,
+    "Direction": "ltr",
+    "Schema": "http://schema.org/BlogPosting",
+    "isDefaultLanguage": true,
+    "Id": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/B.md",
+    "Created": "2021-05-11T15:38:26.595Z",
+    "Modified": "2021-05-11T15:38:26.595Z",
+    "urlObj": {
+      "identifier": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/B.md",
+      "path": "2021/05"
+    },
+    "Url": "/2021/05/b/",
+    "AbsoluteUrl": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/b/",
+    "Filename": "D:\\xampp\\htdocs\\blogger-data\\blog-pulipuli-info-archive\\htdocs\\2021\\05\\b\\index.html",
+    "AbsoluteUrlAmp": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/b/amp.html",
+    "AbsoluteLink": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/b/",
+    "Link": "/2021/05/b/",
+    "MarkdownTitle": "There are <% page('PageA').get('numOfProducts') %> products in total.",
+    "Wordcount": 7,
+    "Keywords": [],
+    "Tags": [],
+    "Classes": [
+      "normal-article"
+    ],
+    "MarkdownDescription": "There are <% page('PageA').get('numOfProducts') %> products in total.\n",
+    "Author": "Pulipuli Chen <blog@pulipuli.info>",
+    "AuthorTwitter": "",
+    "AuthorName": "Pulipuli Chen",
+    "AuthorEmail": "blog@pulipuli.info",
+    "AuthorImage": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd",
+    "authorUrlObj": {
+      "identifier": "Pulipuli Chen",
+      "path": "authored-by"
+    },
+    "ImageAlt": "",
+    "Image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+    "Twitter": "There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total."
+  },
+  "attachmentDir": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/B",
+  "share": {
+    "facebook": "https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F",
+    "gplus": "https://plus.google.com/share?link=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F",
+    "xing": "https://www.xing.com/spi/shares/new?url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F",
+    "twitter": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F&source=tweetbutton&text=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.%20http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F&link=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F",
+    "pinterest": null,
+    "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F&title=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.&summary=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.",
+    "pocket": "https://getpocket.com/save?url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F&title=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.",
+    "tumblr": "https://www.tumblr.com/share/link?url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F&name=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.&description=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.",
+    "wordpress": "https://wordpress.com/press-this.php?u=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F&t=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.&s=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.&i=undefined",
+    "whatsapp": "https://wa.me/?text=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.%20%5Bhttp%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F%5D",
+    "email": "mailto:?subject=Pulipuli%20Chen's%20Blog&body=There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total.%0A%0Ahttp%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F"
+  },
+  "hash": "1bb0985caa34266c9e53ab42f9a32a5f",
+  "safeHtml": "<p>There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.</p>",
+  "safeHtmlTeaser": "<p>There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.</p>",
+  "ampHtml": "<p>There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.</p>",
+  "ampHtmlTeaser": "<p>There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.</p>",
+  "ampProperties": {
+    "hasImg": false,
+    "hasVideo": false,
+    "hasAudio": false,
+    "hasIframe": false,
+    "hasYoutube": false,
+    "hasVimeo": false,
+    "hasCarousel": false,
+    "hasTwitter": false
+  },
+  "ampPropertiesTeaser": {
+    "hasImg": false,
+    "hasVideo": false,
+    "hasAudio": false,
+    "hasIframe": false,
+    "hasYoutube": false,
+    "hasVimeo": false,
+    "hasCarousel": false,
+    "hasTwitter": false
+  },
+  "prev": "/2021/05/hello-world/index.json",
+  "next": "/2021/05/a/index.json"
+}

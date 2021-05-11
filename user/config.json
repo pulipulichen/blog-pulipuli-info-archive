@@ -1,11 +1,11 @@
 {
   "name": "Pulipuli Chen's Blog",
   "shortName": "pulipuli",
-  "baseUrl": "https://archive.pulipuli.info",
+  "baseUrl": "http://localhost:8383/blog-pulipuli-info-archive/htdocs/",
   "basePath": "/",
   "description": "A blog archive for blog.pulipuli.info",
   "locale": {
-    "language": "zh-TW",
+    "language": "en",
     "direction": "ltr"
   },
   "postPathMode": "Year/Month",

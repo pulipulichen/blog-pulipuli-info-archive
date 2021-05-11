@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//3960.org//BLOGOPHON//DE
+X-WR-CALNAME;CHARSET=UTF-8:Pulipuli Chen's Blog | Home
+X-WR-TIMEZONE;VALUE=TEXT:Europe/Berlin
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VJOURNAL
+DTSTART;VALUE=DATE:20210511T153826Z
+URL: 
+ http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/hello-w
+ orld/
+SUMMARY;CHARSET=UTF-8:Hello world
+DESCRIPTION;CHARSET=UTF-8:Hello world
+DTSTAMP:20210511T154153Z
+UID: 
+ D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/hello
+ -world.md
+END:VJOURNAL
+BEGIN:VJOURNAL
+DTSTART;VALUE=DATE:20210511T153826Z
+URL: 
+ http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/b/
+SUMMARY;CHARSET=UTF-8: 
+ There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.
+DESCRIPTION;CHARSET=UTF-8: 
+ There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.
+DTSTAMP:20210511T154153Z
+UID: 
+ D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/B.md
+END:VJOURNAL
+BEGIN:VJOURNAL
+DTSTART;VALUE=DATE:20210511T153826Z
+URL: 
+ http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/a/
+SUMMARY;CHARSET=UTF-8:<% set(‘name’\, ‘PageA’) %>
+DESCRIPTION;CHARSET=UTF-8: 
+ <% set(‘name’\, ‘PageA’) %>\n<% set(‘numOfProducts’\, 42) %>
+DTSTAMP:20210511T154153Z
+UID: 
+ D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/A.md
+END:VJOURNAL
+END:VCALENDAR

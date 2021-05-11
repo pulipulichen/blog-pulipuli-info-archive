@@ -1,0 +1,100 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Pulipuli Chen's Blog | Home",
+  "home_page_url": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//",
+  "feed_url": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//feed.json",
+  "description": "A blog archive for blog.pulipuli.info",
+  "icon": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+  "favicon": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-128x128.png",
+  "author": {
+    "name": "Pulipuli Chen",
+    "url": "mailto:blog@pulipuli.info"
+  },
+  "authors": [
+    {
+      "name": "Pulipuli Chen",
+      "url": "mailto:blog@pulipuli.info"
+    }
+  ],
+  "language": "en",
+  "_rss": {
+    "about": "http://cyber.harvard.edu/rss/rss.html"
+  },
+  "items": [
+    {
+      "id": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/hello-world.md",
+      "url": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/hello-world/",
+      "title": "Hello world",
+      "content_html": "<p>Hello world</p><!-- Add Feed analytics here with http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F and Hello%20world -->",
+      "summary": "Hello world",
+      "date_published": "2021-05-11T23:38:26+08:00",
+      "date_modified": "2021-05-11T23:38:26+08:00",
+      "author": {
+        "name": "Pulipuli Chen",
+        "url": "mailto:blog@pulipuli.info",
+        "avatar": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd"
+      },
+      "authors": [
+        {
+          "name": "Pulipuli Chen",
+          "url": "mailto:blog@pulipuli.info",
+          "avatar": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd"
+        }
+      ],
+      "banner_image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+      "language": "en",
+      "image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+      "tags": []
+    },
+    {
+      "id": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/B.md",
+      "url": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/b/",
+      "title": "There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.",
+      "content_html": "<p>There are &lt;% page(‘PageA’).get(‘numOfProducts’) %&gt; products in total.</p><!-- Add Feed analytics here with http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fb%2F and There%20are%20%3C%25%20page(%E2%80%98PageA%E2%80%99).get(%E2%80%98numOfProducts%E2%80%99)%20%25%3E%20products%20in%20total. -->",
+      "summary": "There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.",
+      "date_published": "2021-05-11T23:38:26+08:00",
+      "date_modified": "2021-05-11T23:38:26+08:00",
+      "author": {
+        "name": "Pulipuli Chen",
+        "url": "mailto:blog@pulipuli.info",
+        "avatar": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd"
+      },
+      "authors": [
+        {
+          "name": "Pulipuli Chen",
+          "url": "mailto:blog@pulipuli.info",
+          "avatar": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd"
+        }
+      ],
+      "banner_image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+      "language": "en",
+      "image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+      "tags": []
+    },
+    {
+      "id": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/A.md",
+      "url": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/a/",
+      "title": "<% set(‘name’, ‘PageA’) %>",
+      "content_html": "<p>&lt;% set(‘name’, ‘PageA’) %&gt;\n&lt;% set(‘numOfProducts’, 42) %&gt;</p><!-- Add Feed analytics here with http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fa%2F and %3C%25%20set(%E2%80%98name%E2%80%99%2C%20%E2%80%98PageA%E2%80%99)%20%25%3E -->",
+      "summary": "<% set(‘name’, ‘PageA’) %>\n<% set(‘numOfProducts’, 42) %>",
+      "date_published": "2021-05-11T23:38:26+08:00",
+      "date_modified": "2021-05-11T23:38:26+08:00",
+      "author": {
+        "name": "Pulipuli Chen",
+        "url": "mailto:blog@pulipuli.info",
+        "avatar": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd"
+      },
+      "authors": [
+        {
+          "name": "Pulipuli Chen",
+          "url": "mailto:blog@pulipuli.info",
+          "avatar": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd"
+        }
+      ],
+      "banner_image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+      "language": "en",
+      "image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+      "tags": []
+    }
+  ]
+}

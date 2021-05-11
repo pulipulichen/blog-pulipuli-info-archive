@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Hello world",
+    "description": "Hello world",
+    "url": "/2021/05/hello-world/index.json"
+  },
+  {
+    "title": "There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.",
+    "description": "There are <% page(‘PageA’).get(‘numOfProducts’) %> products in total.",
+    "url": "/2021/05/b/index.json"
+  },
+  {
+    "title": "<% set(‘name’, ‘PageA’) %>",
+    "description": "<% set(‘name’, ‘PageA’) %>\n<% set(‘numOfProducts’, 42) %>",
+    "url": "/2021/05/a/index.json"
+  }
+]

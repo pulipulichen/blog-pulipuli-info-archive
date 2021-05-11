@@ -1,0 +1,92 @@
+{
+  "htmlTeaser": "<p>Hello world</p>",
+  "html": "<p>Hello world</p>",
+  "htmlTitle": "Hello world",
+  "filename": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/hello-world.md",
+  "markdown": "Hello world\n",
+  "meta": {
+    "Title": "Hello world",
+    "hasNoExtraDescription": true,
+    "Description": "Hello world",
+    "DateModified": "2021-05-11T15:38:26.618Z",
+    "Date": "2021-05-11T15:38:26.618Z",
+    "Language": "en",
+    "isMicropost": false,
+    "Direction": "ltr",
+    "Schema": "http://schema.org/BlogPosting",
+    "isDefaultLanguage": true,
+    "Id": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/hello-world.md",
+    "Created": "2021-05-11T15:38:26.618Z",
+    "Modified": "2021-05-11T15:38:26.618Z",
+    "urlObj": {
+      "identifier": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/hello-world.md",
+      "path": "2021/05"
+    },
+    "Url": "/2021/05/hello-world/",
+    "AbsoluteUrl": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/hello-world/",
+    "Filename": "D:\\xampp\\htdocs\\blogger-data\\blog-pulipuli-info-archive\\htdocs\\2021\\05\\hello-world\\index.html",
+    "AbsoluteUrlAmp": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/hello-world/amp.html",
+    "AbsoluteLink": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//2021/05/hello-world/",
+    "Link": "/2021/05/hello-world/",
+    "MarkdownTitle": "Hello world",
+    "Wordcount": 1,
+    "Keywords": [],
+    "Tags": [],
+    "Classes": [
+      "normal-article"
+    ],
+    "MarkdownDescription": "Hello world\n",
+    "Author": "Pulipuli Chen <blog@pulipuli.info>",
+    "AuthorTwitter": "",
+    "AuthorName": "Pulipuli Chen",
+    "AuthorEmail": "blog@pulipuli.info",
+    "AuthorImage": "https://www.gravatar.com/avatar/e70e78e94e8e092f11999ba9e7c105bd",
+    "authorUrlObj": {
+      "identifier": "Pulipuli Chen",
+      "path": "authored-by"
+    },
+    "ImageAlt": "",
+    "Image": "http://localhost:8383/blog-pulipuli-info-archive/htdocs//themes/default/img/favicon-192x192.png",
+    "Twitter": "Hello world"
+  },
+  "attachmentDir": "D:/xampp/htdocs/blogger-data/blog-pulipuli-info-archive/user/posts/hello-world",
+  "share": {
+    "facebook": "https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F",
+    "gplus": "https://plus.google.com/share?link=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F",
+    "xing": "https://www.xing.com/spi/shares/new?url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F",
+    "twitter": "https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F&source=tweetbutton&text=Hello%20world%20http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F&link=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F",
+    "pinterest": null,
+    "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F&title=Hello%20world&summary=Hello%20world",
+    "pocket": "https://getpocket.com/save?url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F&title=Hello%20world",
+    "tumblr": "https://www.tumblr.com/share/link?url=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F&name=Hello%20world&description=Hello%20world",
+    "wordpress": "https://wordpress.com/press-this.php?u=http%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F&t=Hello%20world&s=Hello%20world&i=undefined",
+    "whatsapp": "https://wa.me/?text=Hello%20world%20%5Bhttp%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F%5D",
+    "email": "mailto:?subject=Pulipuli%20Chen's%20Blog&body=Hello%20world%0A%0Ahttp%3A%2F%2Flocalhost%3A8383%2Fblog-pulipuli-info-archive%2Fhtdocs%2F%2F2021%2F05%2Fhello-world%2F"
+  },
+  "hash": "a38d5f1b1757eb7367c300f3afcf567f",
+  "safeHtml": "<p>Hello world</p>",
+  "safeHtmlTeaser": "<p>Hello world</p>",
+  "ampHtml": "<p>Hello world</p>",
+  "ampHtmlTeaser": "<p>Hello world</p>",
+  "ampProperties": {
+    "hasImg": false,
+    "hasVideo": false,
+    "hasAudio": false,
+    "hasIframe": false,
+    "hasYoutube": false,
+    "hasVimeo": false,
+    "hasCarousel": false,
+    "hasTwitter": false
+  },
+  "ampPropertiesTeaser": {
+    "hasImg": false,
+    "hasVideo": false,
+    "hasAudio": false,
+    "hasIframe": false,
+    "hasYoutube": false,
+    "hasVimeo": false,
+    "hasCarousel": false,
+    "hasTwitter": false
+  },
+  "next": "/2021/05/b/index.json"
+}
