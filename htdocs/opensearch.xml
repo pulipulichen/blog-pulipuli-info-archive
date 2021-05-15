@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns:moz="http://www.mozilla.org/2006/browser/search/" xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>Pulipuli Chen&#x27;s Blog</ShortName>
-  <Description>Search Pulipuli Chen&#x27;s Blog</Description>
-  <InputEncoding>UTF-8</InputEncoding>
-  <Url method="get" type="text/html" template="https://www.google.de/search?q&#x3D;site%3Aarchive.pulipuli.info+{searchTerms}"/>
-    <Image type="image/png">https://archive.pulipuli.info/themes/default/img/favicon-128x128.png</Image>
-</OpenSearchDescription>

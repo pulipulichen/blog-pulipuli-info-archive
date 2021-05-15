@@ -1,9 +1,0 @@
-# http://www.robotstxt.org/
-# This file's content must be reachable via https://archive.pulipuli.info/robots.txt
-
-User-agent: *
-Disallow: /google*.html
-Disallow: /yandex*.html
-
-Host: https://archive.pulipuli.info
-Sitemap: https://archive.pulipuli.info/sitemap.xml

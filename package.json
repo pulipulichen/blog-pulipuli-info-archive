@@ -4,7 +4,6 @@
   "description": "A blog archive for blog.pulipuli.info",
   "main": "index.js",
   "scripts": {
-    "build": "techy --config ./techy-options.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
